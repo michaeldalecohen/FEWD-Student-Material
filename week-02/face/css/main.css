@@ -1,0 +1,26 @@
+body {
+    padding: 30px;
+}
+
+#head {
+    background: #e6cdb8;
+    border-radius: 75% 75% 130% 130%;
+    position: relative;
+    width: 374px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#head .layer {
+    position: absolute;
+}
+
+#head .layer-eye { 
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 84px;
+    height: 75px;
+    top: 100px;
+    left: 63px
+}

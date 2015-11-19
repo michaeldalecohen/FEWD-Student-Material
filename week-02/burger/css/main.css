@@ -1,0 +1,50 @@
+body {
+    background: rgb(40, 169, 224) url('../images/pattern--blue.png') 50% 50% repeat;
+}
+
+#burger {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -135px 0 0 -120px;
+    width: 240px;
+    height: 270px;
+}
+
+#burger .layer {
+    background-size: cover;
+    width: 240px;
+    height: 120px;
+}
+
+
+/* Closed state */
+
+#burger .layer-price { 
+    background-image: url('../images/price.png');
+    width: 75px;
+    height: 75px;
+}
+
+#burger .layer-top-bun { 
+    background-image: url('../images/bun__top.png');
+}
+
+#burger .layer-bottom-bun { 
+    background-image: url('../images/bun__bottom--1.png');
+}
+
+#burger .layer-beetroot { 
+    background-image: url('../images/beetroot.png');
+}
+
+#burger .layer-bacon { 
+    background-image: url('../images/bacon.png');
+}
+
+
+/* Open state */
+
+#burger.open .layer-top-bun { 
+    border: 20px solid blue;
+}
